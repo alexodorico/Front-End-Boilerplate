@@ -1,0 +1,41 @@
+{
+  "name": "foundation6-boilerplate",
+  "version": "0.1.0",
+  "description": "Boilerplate that includes simple Express server, Pug templating, SASS, and jQuery",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oxideorcoal/Front-End-Boilerplate"
+  },
+  "keywords": [
+    "front-end"
+    "boilerplate"
+    "sass",
+    "normalize.css",
+    "pug",
+    "gulp",
+    "jquery"
+  ],
+  "author": "Alex Odorico",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oxideorcoal/Front-End-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/oxideorcoal/Front-End-Boilerplate#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "nodemon": "^1.11.0",
+    "pug": "^2.0.0-beta11"
+  }
+}

@@ -1,0 +1,25 @@
+$one-color: ;
+$two-color: ;
+$three-color: ;
+$four-color: ;
+$five-color: ;
+
+$background-color: ;
+$text-color: ;
+
+<<<<<<< HEAD
+$primary-font: ;
+$secondary-font: ;
+=======
+// Partials
+@import 'partials/base'; 
+>>>>>>> 63af8e43d05fb3d6d553bc9a16bfe5f4fe2e3b34
+
+$heading-font-size: ;
+$font-size: ;
+
+@import 'normalize/sass/normalize';
+@import 'partials/base';
+@import 'partials/layout';
+@import 'partials/modules';
+@import 'partials/state';
