@@ -1,5 +1,5 @@
 # Front-End Boilerplate
-Boilerplate for front-end development that includes Pug, SASS, jQuery, Gulp, and a simple Express server
+Boilerplate for front-end development that includes Pug, SASS, jQuery, and Gulp on an Express server
 
 ## Server
 Start Express server at localhost:3000 with `nodemon server.js` or `npm run start`
