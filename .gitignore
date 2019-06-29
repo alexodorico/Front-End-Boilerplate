@@ -1,5 +1,4 @@
-$ cat .gitignore
-
-.sass-cache/
-node-modules/
 .DS_Store
+dist
+package-lock.json
+node_modules

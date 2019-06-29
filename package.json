@@ -1,41 +1,35 @@
 {
-  "name": "foundation6-boilerplate",
+  "name": "your-project",
   "version": "0.1.0",
-  "description": "Boilerplate that includes simple Express server, Pug templating, SASS, and jQuery",
-  "main": "server.js",
+  "description": "description of your project",
   "scripts": {
-    "start": "nodemon server.js"
+    "build": "webpack --config webpack.config.js",
+    "start:dev": "webpack-dev-server"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/oxideorcoal/Front-End-Boilerplate"
-  },
-  "keywords": [
-    "front-end"
-    "boilerplate"
-    "sass",
-    "normalize.css",
-    "pug",
-    "gulp",
-    "jquery"
-  ],
-  "author": "Alex Odorico",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/oxideorcoal/Front-End-Boilerplate/issues"
-  },
-  "homepage": "https://github.com/oxideorcoal/Front-End-Boilerplate#readme",
-  "dependencies": {
-    "express": "^4.15.2"
-  },
+  "author": "Your Name",
+  "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.18.8",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.0.4",
-    "gulp-concat": "^2.6.1",
-    "gulp-pug": "^3.3.0",
-    "gulp-sass": "^3.1.0",
-    "nodemon": "^1.11.0",
-    "pug": "^2.0.0-beta11"
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "autoprefixer": "^9.6.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-minify": "^0.2.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.0.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.21.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
