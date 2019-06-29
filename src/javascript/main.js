@@ -1,1 +1,4 @@
-import '../scss/styles.scss';
+import 'normalize.css';
+import '../scss/main.scss';
+
+console.log('wut');
