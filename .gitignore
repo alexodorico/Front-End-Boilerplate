@@ -1,5 +1,2 @@
-$ cat .gitignore
-
-.sass-cache/
-node-modules/
 .DS_Store
+node-modules/
