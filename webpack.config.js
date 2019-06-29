@@ -56,7 +56,11 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      hash: true
+      hash: true,
+      minify: true,
+      title: 'My App',
+      initText: 'Hello World',
+      template: './src/index.html'
     }),
     new MiniCssExtractPlugin(),
     new CleanWebpackPlugin()
