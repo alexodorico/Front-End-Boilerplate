@@ -41,13 +41,25 @@ module.exports = {
         ]
       },
       {
+        test: /.*\.(gif|png|jpe?g)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              outputPath: 'images',
+              name: '[name].[ext]'
+            }
+          }
+        ]
+      },
+      {
         test: /\.(woff|woff2|ttf|otf|eot)$/,
         use: [
           {
             loader: 'file-loader',
             options: {
               outputPath: 'fonts',
-              name: "[name].[ext]"
+              name: '[name].[ext]'
             }
           }
         ]
