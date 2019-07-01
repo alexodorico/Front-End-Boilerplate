@@ -1,6 +1,7 @@
 const fs = require("fs");
 const ncp = require("ncp");
 const path = require("path");
+const chalk =require("chalk");
 import { promisify } from 'util';
 import { exec } from 'child_process';
 
@@ -17,11 +18,11 @@ export async function cli(args) {
     );
 
     await copy(templateDir, args[2]);
-    console.log("Files copied");
+    console.log(chalk.blue("Files copied!"));
     let install = exec(`cd ${args[2]} ; npm install`);
-    console.log('Installing npm packages...');
-    install.on('exit', _ => console.log(`${args[2]} created!`));
+    console.log(chalk.blue('Installing npm packages...'));
+    install.on('exit', _ => console.log(chalk.green(`${args[2]} created!`)));
   } else {
-    console.log('Please give a valid directory name for your project!');
+    console.log(chalk.red.bold('Please give a valid directory name for your project!'));
   }
 }
