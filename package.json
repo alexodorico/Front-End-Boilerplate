@@ -1,16 +1,17 @@
 {
   "name": "@oxideorcoal/front-end-boilerplate",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "Boilerplate for a Webpack/SCSS powered front-end",
   "main": "src/cli.js",
   "bin": {
     "@oxideorcoal/front-end-boilerplate": "bin/front-end-boilerplate",
-    "feb": "bin/front-end-boilerplate"
+    "front-end-boilerplate": "bin/front-end-boilerplate"
   },
   "files": [
     "bin/",
     "src/",
-    "template/"
+    "template/",
+    "package.json"
   ],
   "dependencies": {
     "chalk": "^2.4.2",

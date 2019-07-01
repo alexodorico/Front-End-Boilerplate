@@ -3,7 +3,9 @@
 CLI to generate boilerplate code for a Webpack/SCSS powered front-end
 
 ## Installation
-`npm install -g front-end-boilerplate`
+`npm install -g @oxideorcoal/front-end-boilerplate`
+or
+`npx @oxidecoal/front-end-boilerplate your-project`
 
 ## Usage
 `front-end-boilerplate your-project` to create a new "your-project" directory and install all dependencies.
