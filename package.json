@@ -1,35 +1,37 @@
 {
-  "name": "your-project",
+  "name": "front-end-boilerplate",
   "version": "0.1.0",
-  "description": "description of your project",
-  "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "start:dev": "webpack-dev-server"
-  },
-  "author": "Your Name",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
-    "autoprefixer": "^9.6.0",
-    "babel-cli": "^6.26.0",
-    "babel-loader": "^8.0.6",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-minify": "^0.2.0",
-    "clean-webpack-plugin": "^3.0.0",
-    "css-loader": "^3.0.0",
-    "cssnano": "^4.1.10",
-    "file-loader": "^4.0.0",
-    "html-webpack-plugin": "^3.2.0",
-    "mini-css-extract-plugin": "^0.7.0",
-    "postcss-loader": "^3.0.0",
-    "sass": "^1.21.0",
-    "sass-loader": "^7.1.0",
-    "webpack": "^4.35.0",
-    "webpack-cli": "^3.3.5",
-    "webpack-dev-server": "^3.7.2"
+  "description": "Boilerplate for a Webpack/SCSS powered front-end",
+  "main": "src/index.js",
+  "bin": {
+    "@oxideorcoal/front-end-boilerplate": "bin/front-end-boilerplate",
+    "front-end-boilerplate": "bin/front-end-boilerplate"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1"
-  }
+    "chalk": "^2.4.2",
+    "esm": "^3.2.25",
+    "ncp": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexodorico/Front-End-Boilerplate.git"
+  },
+  "keywords": [
+    "cli",
+    "front-end",
+    "boilerplate",
+    "scss",
+    "webpack"
+  ],
+  "author": "Alex Odorico",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexodorico/Front-End-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/alexodorico/Front-End-Boilerplate#readme"
 }
