@@ -1,6 +1,6 @@
 {
   "name": "@oxideorcoal/front-end-boilerplate",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Boilerplate for a Webpack/SCSS powered front-end",
   "main": "src/cli.js",
   "bin": {
@@ -11,7 +11,8 @@
     "bin/",
     "src/",
     "template/",
-    "package.json"
+    "package.json",
+    "README.md"
   ],
   "dependencies": {
     "chalk": "^2.4.2",
