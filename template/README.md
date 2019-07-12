@@ -1,6 +1,6 @@
 # Front-End Boilerplate
 
-Boilerplate for front-end projects that includes Webpack and SCSS
+Boilerplate for front-end that includes Webpack, Babel, and SCSS.
 
 ## Usage
 `npm run start:dev`: Start local development server with hot reloading

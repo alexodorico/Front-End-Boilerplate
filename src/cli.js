@@ -19,8 +19,6 @@ export async function cli(args) {
 
     await copy(templateDir, args[2]);
     console.log(chalk.blue("Files copied!"));
-    let install = exec(`cd ${args[2]} ; npm install`);
-    console.log(chalk.blue('Installing npm packages...'));
     install.on('exit', _ => console.log(chalk.green(`${args[2]} created!`)));
   } else {
     console.log(chalk.red.bold('Please give a valid directory name for your project!'));
